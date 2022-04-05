@@ -33,7 +33,7 @@
                 "-lkernel32",
                 "-luser32",
                 "-lopengl32",
-                "openvr_api.lib",
+                "./third-party/openvr/openvr_api.lib",
                 "-lgdi32"
             ],
             "options": {

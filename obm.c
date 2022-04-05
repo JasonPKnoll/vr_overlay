@@ -1,10 +1,10 @@
 //Make it so we don't need to include any other C files in our build.
 #define CNFG_IMPLEMENTATION
 #define  CNFGOGL
-#include "rawdraw_sf.h"
+#include "./third-party/cntools/rawdraw_sf.h"
 
 #undef EXTERN_C
-#include "openvr_capi.h"
+#include "./third-party/openvr/openvr_capi.h"
 
 intptr_t VR_InitInternal( EVRInitError *peError, EVRApplicationType eType );
 void VR_ShutdownInternal();
