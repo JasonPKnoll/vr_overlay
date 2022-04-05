@@ -32,6 +32,8 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lkernel32",
                 "-luser32",
+                "-lopengl32",
+                "openvr_api.lib",
                 "-lgdi32"
             ],
             "options": {
